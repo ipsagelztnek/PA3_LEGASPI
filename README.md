@@ -1,4 +1,4 @@
-### PA3_LEGASPI
+# PA3_LEGASPI
 
 ### Problem#1
 
@@ -6,16 +6,16 @@ A CSV file named cars.csv is imported into a dataframe using pandas. To quickly 
 
 import pandas as pd
 
-# load the cars dataset
+### load the cars dataset
 cars = pd.read_csv("cars.csv")
 
-# show first 5 rows
+### show first 5 rows
 cars.head()
 
-# show last 5 rows
+### show last 5 rows
 cars.tail()
 
-### Problem #2
+# Problem #2
 
 Subsetting, Slicing, and Indexing
 For this part, different indexing techniques were applied to the cars dataframe:
